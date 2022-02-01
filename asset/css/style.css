@@ -8,7 +8,21 @@
 
 /* UTILITY  */
 
+.f-white{
+    color: white;
+}
 
+.f-lightgray{
+    color: lightgray;
+}
+
+.bg-blue{
+    background-color: #47adf1;
+}
+
+.border-lightgray{
+    border: 1.5px solid lightgray;
+}
 
 /* UTILITY */
 
@@ -38,9 +52,33 @@ h1{
     transform: translate(0, -50%);
 }
 
-.container{
+.button-container{
+    background-color: white;
+    width: 75%;
+    height: 50px;
+    margin: 30px auto 0px;
+    position: relative;
+    padding-left: 40px;
+}
+
+.button-container div{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.button{
+    padding: 5px 10px;
+    font-size: x-small;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+.task-container{
     background-color: white;
     width: 75%;
     height: 300px;
-    margin: 30px auto 0px;
+    margin: 2px auto 0px;
 }
+
