@@ -4,16 +4,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+ul{
+    margin-left: 1em;
+}
 /* Fine Reset */
 
 /* UTILITY  */
-
 .f-white{
     color: white;
 }
 
 .f-lightgray{
     color: lightgray;
+}
+
+.f-darkgray{
+    color: #4a4e57;
+}
+
+.f-small{
+    font-size: small;
+}
+
+.f-xsmall{
+    font-size: x-small;
 }
 
 .bg-blue{
@@ -23,7 +38,6 @@
 .border-lightgray{
     border: 1.5px solid lightgray;
 }
-
 /* UTILITY */
 
 body{
@@ -69,7 +83,6 @@ h1{
 
 .button{
     padding: 5px 10px;
-    font-size: x-small;
     font-weight: bold;
     border-radius: 5px;
 }
@@ -78,7 +91,27 @@ h1{
 .task-container{
     background-color: white;
     width: 75%;
-    height: 300px;
+    height: auto;
     margin: 2px auto 0px;
 }
 
+.task{
+    padding: 0px 40px;
+}
+
+section h3{
+    padding-top: 30px;
+}
+
+section div{
+    padding: 10px 0;
+}
+
+.check{
+    color: #64c0a9;
+    border: 1.5px solid #64c0a9;
+    font-weight: bold;
+    font-family: auto;
+    padding: 2px;
+    border-radius: 50%;
+}
