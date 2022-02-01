@@ -11,7 +11,12 @@
 /* UTILITY */
 
 body{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
+}
+
+header{
+    height: 60px;
+    position: relative;
 }
 
 #logo{
@@ -20,6 +25,13 @@ body{
 
 h1{
     display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.ml-20{
+    margin-left: 20px;
 }
 
 main{
