@@ -31,8 +31,32 @@ ul{
     font-size: x-small;
 }
 
+.f-xxsmall{
+    font-size: xx-small;
+}
+
 .bg-blue{
     background-color: #47adf1;
+}
+
+.bg-purple{
+    background-color: #9c72e4;
+}
+
+.bg-lightgreen{
+    background-color: #64c0a9;
+}
+
+.bg-yellowgreen{
+    background-color: #b0c926;
+}
+
+.bg-orange{
+    background-color: #f29e33;
+}
+
+.bg-pink{
+    background-color: #d863a1;
 }
 
 .border-lightgray{
@@ -44,6 +68,8 @@ body{
     font-family: sans-serif;
     background-color: #f6f8f9;
 }
+
+/* HEADER */
 
 header{
     height: 60px;
@@ -65,6 +91,8 @@ h1{
     top: 50%;
     transform: translate(0, -50%);
 }
+
+/* MAIN */
 
 .button-container{
     background-color: white;
@@ -92,15 +120,15 @@ h1{
     background-color: white;
     width: 75%;
     height: auto;
-    margin: 2px auto 0px;
+    margin: 2px auto 10px;
 }
 
 .task{
-    padding: 0px 40px;
+    padding: 0px 40px 20px;
 }
 
-section h3{
-    padding-top: 30px;
+section{
+    padding: 30px 0px 0px;
 }
 
 section div{
@@ -114,4 +142,20 @@ section div{
     font-family: auto;
     padding: 2px;
     border-radius: 50%;
+    margin-right: 5px;
+}
+
+.cross{
+    color: #f08a85;
+    border: 1.5px solid #f08a85;
+    font-weight: bold;
+    font-family: auto;
+    padding: 2px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.label{
+    border-radius: 10px;
+    padding: 5px 10px;
 }
