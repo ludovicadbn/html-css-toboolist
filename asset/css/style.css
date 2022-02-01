@@ -1,0 +1,28 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Fine Reset */
+
+/* UTILITY  */
+
+/* UTILITY */
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#logo{
+    height: 60px;
+}
+
+h1{
+    display: inline-block;
+}
+
+main{
+    background-color: red;
+    background-size: cover;
+}
